@@ -1,8 +1,8 @@
 const request = require('request');
-const { getOptionsForUser } = require('./options')
-const { getBatchIndexArrayTill, start, end } = require('./batch')
+const { getOptionsForUser } = require('./utils/options')
+const { getBatchIndexArrayTill, start, end } = require('./utils/batch')
 const Parallel = require('async-parallel');
-const Response = require('./response-handler');
+const Response = require('./handler/response-handler');
 
 (async function () {
   const TOTAL_RECORDS = 1140000

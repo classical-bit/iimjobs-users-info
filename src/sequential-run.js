@@ -1,6 +1,6 @@
 const request = require('request');
-const { getOptionsForUser } = require('./options')
-const Response = require('./response-handler');
+const { getOptionsForUser } = require('./utils/options')
+const Response = require('./handler/response-handler');
 
 (() => {
   const TOTAL_RECORDS = 1140000
