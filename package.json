@@ -1,0 +1,15 @@
+{
+  "name": "iimjobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-parallel": "^1.2.3",
+    "request": "^2.88.0"
+  }
+}
