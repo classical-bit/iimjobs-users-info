@@ -1,5 +1,5 @@
 const request = require('request');
-const { getOptionsForUser } = require('./Options')
+const { getOptionsForUser } = require('./options')
 const Response = require('./response-handler');
 
 (() => {
